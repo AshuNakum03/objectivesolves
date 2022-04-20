@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  background-color: black;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.secondpage {
+  background-color: black;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.thirdpage {
+  padding-top: 9rem;
+}
+.fourthpage {
+  padding-top: 12rem;
+}
+.fifthpage {
+  margin-top: 13rem;
+  background-image: url('img/passion.avif');
+  margin-bottom: 10rem;
+
+}
+.sixthpage {
+  padding-top: 4rem;
+  background-color: #f5f5f5;
+}
+.Seventhpage {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.eightpage {
+  background-color: black;
+  margin-top: 8rem;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.ninthpage {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.crown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-headline {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  max-width: 630px;
+}
+.projectpage1{
+border-top: 1px solid black;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  animation-name: jumpingDots;
+  animation-duration: 0.5s;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+.dot1 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  animation-name: jumpingDots;
+  animation-duration: 0.5s;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+.present {
+  /* margin-bottom: 50px; */
+  margin-top: 80px;
+}
+.circle {
+  z-index: -1;
+  margin-top: 210px;
+  margin-left: -65px;
+  position: absolute;
+  opacity: 1;
+}
+.circle2{
+  z-index: -1;
+    margin-top: 500px;
+    margin-right: 20px;
+    position: absolute;
+    opacity: 1;
+    right: 16px;
+    transform: rotate(90deg);
+}
+.card1 {
+  border: none;
+  top: 0;
+  transition: 0.3s;
+}
+.card1:hover {
+  top: -20px;
+}
+.sold {
+  border-radius: 0px;
+  padding: 15px 25px 15px 25px;
+}
+.sold1 {
+  border-radius: 0px;
+  padding: 15px 35px 15px 35px;
+}
+.sold:hover .dot {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.sold1:hover .dot1 {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.projectimage {
+  width: 370px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 222px;
+  margin-left: 100px;
+  box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
+}
+.workimage {
+  box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
+}
+.iconcircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconcard {
+  display: flex;
+  align-items: start;
+}
+
+.iconthumb {
+  display: flex;
+  flex-direction: column;
+}
+.secondsvg {
+  position: absolute;
+}
+.Practical {
+  max-width: 400px;
+}
+.practical-txt {
+  font-size: 1.2rem;
+  max-width: 366px;
+}
+
+.main-title{
+  font-size: 4.5rem;
+  /* max-width: 800px; */
+  font-weight: 500;
+}
+@keyframes jumpingDots {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .projectimage {
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .star {
+    padding: 25px;
+  }
+  .card {
+    border: none;
+    top: 0;
+    transition: 0.3s;
+  }
+  .card:hover {
+    top: -10px;
+  }
+  .title {
+    margin-bottom: 30px;
+  }
+  .present {
+    margin-left: 0px;
+  }
+
+  .Practical {
+    max-width: 100%;
+  }
+  .practical-txt {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .fifthpage {
+    padding-top: 4rem;
+  }
+  .crown {
+    margin-bottom: 4rem;
+  }
+  /* .iconcard {
+    margin: 10px;
+  } */
+
+  .fourthpage {
+    padding-top: 5rem;
+  }
+
+}
+@media screen and (max-width:767px) {
+  .objective{
+    font-size: 3rem;
+  }
+  .fullready{
+    margin-top: 5rem !important;
+  }
+}
